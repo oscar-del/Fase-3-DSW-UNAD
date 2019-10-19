@@ -1,0 +1,61 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 120px 0px;
+}
+h1{
+    font-size: 2.0em;
+    line-height: 1.3em;
+
+}
+P{
+    margin-bottom: 1.6em;
+}
+
+
+.header{
+    background: #ffffff;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+    
+.contenedor {
+    background: #ffffff;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    
+}
+.logo{
+    margin: 0px 60px;
+}
+.navigation ul{
+    background:#004669;
+    margin: 0%;
+    padding: 0;
+    list-style: none;   
+}
+ .navigation ul li{
+      display: inline-block;  
+  }
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 5rem;
+        transition: all 0.4s linear; 
+        
+     }
+     .navigation ul li a:hover {
+        background:#F0B429;
+     }
+.main{
+padding: 2rem;
+}
