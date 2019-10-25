@@ -59,3 +59,14 @@ P{
 .main{
 padding: 2rem;
 }
+
+.footer {
+
+    width: 100vw;
+    background: black;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    bottom: 10;
+}
+
