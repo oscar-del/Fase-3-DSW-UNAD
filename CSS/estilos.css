@@ -23,6 +23,8 @@ P{
     top: 0;
     right: 0;
 }
+
+/*BARRA DE NAVENGACION*/
     .header a {
         color: white;
         text-decoration: none;
@@ -55,10 +57,66 @@ P{
      }
      .navigation ul li a:hover {
         background:#F0B429;
+
      }
+     /*
+     .navigation > ul > li:hover div {
+    display:table;
+}
+
+     .navigation ul li div{
+     width:  100px;
+    position: center;
+    left:0;
+    background:#ccc;
+    box-sizing:border-box;
+    display:block;
+     }
+*/
+li a, .dropbtn {
+
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #F0B429;
+}
+
+li.dropdown {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;*/
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 72px 16px;
+  text-decoration: none;
+   display: block;
+   text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content { display: block;}
+
 .main{
 padding: 2rem;
 }
+
+/*PIE DE PAGINA*/
 footer{
     width: 100%; 
     background: black;
@@ -115,4 +173,23 @@ footer{
     .container-PDP{
         flex-wrap: wrap;
     }
+}
+
+/*TABLA DE ACTIVIDADES*/
+.juegos{
+
+  position:relative;top:23px;left:500px;
+  border: 8px solid black;
+  border-collapse:;
+  
+}
+
+th, td {
+  padding: 15px;
+  }
+
+.image{
+
+  width: 100px;
+  height:100px;
 }
