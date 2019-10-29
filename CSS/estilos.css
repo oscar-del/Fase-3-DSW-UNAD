@@ -115,41 +115,29 @@ P{
     opacity: 1;
 }
 
-/*li a, .dropbtn {
-
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 50px 16px;
-  text-decoration: none;
+/*SUBITEMS DE ACTIVIDADES*/
+.subitems{
+    position: absolute;
+    width: 37%;
+    visibility:hidden;
+    opacity: 0;
+    
+    
 }
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #F0B429;
-}
-
-li.dropdown {
-  display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-/*.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content { display: block;}*/
-.dropdown-content a {
+.subitems li a{
+    display: inline-block;
     color: white;
-    padding: 72px 16px;
+    text-align: center;
+    padding: 50px 16px;
     text-decoration: none;
-     display: block;
-     text-align: left;
+    
+}
+.navigation li:hover .subitems{
+    visibility: visible; 
+    opacity: 1;
+}
+
+
   }
 .main{
 padding: 2rem;
@@ -214,21 +202,43 @@ footer{
     }
 }
 
-/*TABLA DE ACTIVIDADES*/
-.juegos{
 
-  position:relative;top:23px;left:500px;
-  border: 8px solid black;
-  border-collapse:;
-  
+/*ACTIVIDADES*/
+/*ETIQUETAS*/
+.ETIQUETAS{
+  color:#F0B429;
+  font-family: Snap ITC; 
 }
 
-th, td {
-  padding: 15px;
-  }
+.ahorcado{
+ 
+ border-collapse: collapse; 
+ border: #004669 5px solid;
+width: 500px;
+ height: 250px;
+}
+
+.sopadeletras{
+ border-color: blue; 
+ border-collapse: collapse; 
+ border: #004669 5px solid;
+ width: 500px;
+ height: 250px;
+}
 
 .image{
+  width: 220px;
+  height:220px;
+}
 
-  width: 100px;
-  height:100px;
+.boton{
+  position: center;
+  background-color: red;
+}
+
+/*COMPLETA EL CODIGO*/
+
+.LINEA{
+  color:#F0B429;
+  font-family: Snap ITC
 }

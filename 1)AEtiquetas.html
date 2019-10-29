@@ -7,47 +7,57 @@
 </head>
 
 <body>
-	<!--BARRA DE NAVEGACION -->
-    <header class="header">
+	<header class="header">
         <div class="contenedor">
             <img class="logo" src="IMG/logo1.PNG" alt="">
             <nav class="navigation">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="Lecturas.html">Lecturas</a></li>
+                    <li><a href="Lecturas.html">Lecturas</a>
+                            <ul class="submenu">
+                                <li><a href="1)Introdución a html5.html">1)Introducción a HTML5</a></li>
+                                <li><a href="2)Estructura básica de HTML5.html">2)Estructura básica de HTML5</a></li>
+                                <li><a href="3)Dif,Venta y posib desar web con html5.html">3)Diferencias,ventajas y posibilidades </a></li>
+                                <li><a href="4)importancia del css y su configuración en un documento HTML.html">4)importancia del css </a></li>
+                                <li><a href="5)introducción a Css3.html">5)introducción a Css3 </a></li>
+                            </ul>
+                        </li>
                     <li><a href="Multimedia.html">Multimedia</a></li>
-                    <li class="dropdown"><a href="" class="dropbtn">Actividades</a>
-                         <div class="dropdown-content">
-                         	<ul>
-                    		<li><a href="Actividades2.html">Completa el codigo</a></li>
-                    		<li><a href="Actividades3.html">Crea el codigo desde 0</a></li>
-                    		</ul>
-                    	  </div>
-                    </li>
+                    <li><a href="1)AEtiquetas.html">Actividades</a>
+                            <ul class="subitems">
+                                <li><a href="1)AEtiquetas.html"> 1)Etiquetas</a></li>
+                                <li><a href="2)ALineas de codigo.html">2)Completa la linea de codigo</a></li>
+                                <li><a href="3)AEscribe el codigo desde 0.html">3)Escribe el codigo desde 0</a></li>
+                            </ul>
+                        </li>
                     <li><a href="Autores.html">Autores</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <!--CONTENIDO-->
-    <main class="main">
+    <br>
+     <main class="main">
         <div>
 
-           <h1>Conceptos</h1>
-            <p> En esta actividad trabajaremos sobre los conceptos de html5 con  un juego de ahorcado y sopa de letras <p>
+           <h1 class="ETIQUETAS">ETIQUETAS</h1>
+            <p> En esta actividad trabajaremos sobre las etiquetas basicas de html5 con  un juego de ahorcado y sopa de letras <p>
                
-         <!--TABLA DE ACTIVIDADES-->
-    <table class="juegos">
-		<tr>
-    		<td> <a href="Ahorcado.htm">Autores</a>
-    			<img class="image" src="IMG/Ahorcado.jpg"> <input type="button" value="Botón" name="B4" OnClick="location.href='GitHub/Fase-3-DSW-UNAD/Actividades%20ardora/Ahorcado/Ahorcado.htm'">}
-    			
-    		<td> <img class="image" src="IMG/Sopa de letras.jpg"> <input type="button" value="Botón" name="B4" OnClick="location.href='file:///C:/Users/VIVIANA/Documents/GitHub/Fase-3-DSW-UNAD/Actividades%20ardora/SOPA_DE_LETRAS/SOPA_DE_LETRAS.htm'"> 
-    		</td>
-        </tr>
-		</table>
+         <!-- ACTIVIDADES-->
+
+         <div class="ahorcado">
+             <img class="image" src="IMG/Ahorcado.jpg" align=”middle> 
+                <input class="boton" type="button" value="AHORCADO"  OnClick="location.href='Ahorcado.htm'">  
+         </div>
+
+         <div class="sopadeletras">
+             <td> <img class="image" src="IMG/Sopa de letras.jpg"> 
+                <input class="boton" type="button" value="SOPA DE LETRAS"  OnClick="location.href='SOPA_DE_LETRAS.htm'"> 
+         </div>
+             
         </div>
-    </main>  
+    </main> 
 
    <!--PIE DE PAGINA-->
        <hr></hr>
