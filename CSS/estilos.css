@@ -139,6 +139,7 @@ P{
 
 .main{
 padding: 2rem;
+
 }
 
 /*PIE DE PAGINA*/
@@ -240,3 +241,33 @@ width: 500px;
   color:#F0B429;
   font-family: Snap ITC
 }
+
+
+
+/*Aside
+aside{
+    width: 28%;
+    display: inline-block;
+    background: lightcoral;
+}*/
+
+.secundaria{
+    background-color:white;
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+
+
+}
+article{
+    background-color:white;
+
+}
+aside{
+    background-color:white;
+    display: inline-block;
+    width: 30%;
+    
+    
+}
+    
