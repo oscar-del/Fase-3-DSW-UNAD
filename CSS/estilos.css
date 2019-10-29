@@ -251,8 +251,9 @@ aside{
     background: lightcoral;
 }*/
 
+
 .secundaria{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     display: inline-block;
     width: 69%;
     vertical-align: top;
@@ -260,14 +261,15 @@ aside{
 
 }
 article{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
 
 }
 aside{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     display: inline-block;
-    width: 30%;
-    
+    width: 28%;
+    height: 5%;
+    margin-left: 5px;
     
 }
     
