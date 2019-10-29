@@ -242,34 +242,24 @@ width: 500px;
   font-family: Snap ITC
 }
 
-
-
-/*Aside
-aside{
-    width: 28%;
-    display: inline-block;
-    background: lightcoral;
-}*/
-
+/*Aside*/
 
 .secundaria{
     background-color:rgb(255, 255, 255);
     display: inline-block;
     width: 69%;
     vertical-align: top;
-
-
 }
 article{
     background-color:rgb(255, 255, 255);
-
 }
 aside{
     background-color:rgb(255, 255, 255);
     display: inline-block;
     width: 28%;
-    height: 5%;
-    margin-left: 5px;
-    
+    height: 600px;
+    margin-left: 5px;    
+    overflow: auto;
 }
+
     
