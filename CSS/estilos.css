@@ -22,6 +22,14 @@ h4{
     font-size: 1.2rem;
     line-height: 1.4em;
 } 
+h5{
+    font-size: 1.2rem;
+    line-height: 1.4em;
+} 
+h6{
+    font-size: 1.2rem;
+    line-height: 1.4em;
+} 
 
 P{
     margin-bottom: 1.6em;
@@ -260,6 +268,14 @@ aside{
     height: 600px;
     margin-left: 5px;    
     overflow: auto;
+}
+/*Autores*/
+
+
+.foto {
+    width: 150px;
+    height: 150px;
+    float: right;
 }
 
     
