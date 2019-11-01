@@ -294,9 +294,15 @@ aside{
 
 
 .foto {
-    width: 150px;
-    height: 150px;
     float: right;
+    height: 195px;
+    width: 200px;
+    margin: 25px 70px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
 }
 
     
