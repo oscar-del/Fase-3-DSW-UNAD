@@ -211,13 +211,13 @@ footer{
 
 
 /*ACTIVIDADES*/
-/*ETIQUETAS*/
-.ETIQUETAS{
+/*TITULO*/
+.Atitulo{
   color:#F0B429;
   font-family: Snap ITC; 
 }
 
-.ahorcado{
+.actividades{
  
  border-collapse: collapse; 
  border: #004669 5px solid;
@@ -225,13 +225,14 @@ width: 500px;
  height: 250px;
 }
 
+/*
 .sopadeletras{
  border-color: blue; 
  border-collapse: collapse; 
  border: #004669 5px solid;
  width: 500px;
  height: 250px;
-}
+}*/
 
 .image{
   width: 220px;
@@ -239,9 +240,29 @@ width: 500px;
 }
 
 .boton{
-  position: center;
-  background-color: red;
+  
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #004669;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
+
+.boton:hover {background-color: #3e8e41}
+
+.boton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 /*COMPLETA EL CODIGO*/
 
