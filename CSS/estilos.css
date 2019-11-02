@@ -225,14 +225,6 @@ width: 500px;
  height: 250px;
 }
 
-/*
-.sopadeletras{
- border-color: blue; 
- border-collapse: collapse; 
- border: #004669 5px solid;
- width: 500px;
- height: 250px;
-}*/
 
 .image{
   width: 220px;
@@ -269,6 +261,23 @@ width: 500px;
 .LINEA{
   color:#F0B429;
   font-family: Snap ITC
+}
+
+.text{
+
+ vertical-align: top;
+ margin-left:5px;
+ width:  300px;
+ height:  470px;
+}
+
+.imagen1{
+
+  width: 540px;
+  height:500px;
+}
+.hr1{
+  border: #004669 2px solid;
 }
 
 /*Aside*/
